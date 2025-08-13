@@ -1,8 +1,22 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=150&section=header%30render&fontColor=e7f216&text=Suyeon's%20Portfolio&animation=twinkling&color=_000000)
 # 🧸 About Me
-> 웹퍼블리셔 장수연(Suyeon Jang)입니다.
+> 👋 안녕하세요!  
+4년 차 웹 퍼블리셔이자 프론트엔드 개발자로 성장 중인 장수연입니다.
                    
 # 💡 Tech Stack
+- HTML · CSS · JavaScript 퍼블리싱  
+- Vue.js 기반 프론트엔드 개발  
+- UI/UX 개선 및 반응형 웹 구현
+
+🌱 관심 분야  
+- 웹 접근성(A11y) 최적화  
+- 인터랙션 디자인(GSAP, 애니메이션)  
+- 깔끔하고 유지보수 쉬운 코드 작성
+
+🎯 현재 목표  
+- 퍼블리셔 경험을 살린 프론트엔드 전환  
+- GitHub에 사이드 프로젝트와 학습 기록 공유
+
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -34,7 +48,6 @@
 ### 2022 ~ 2023
 - 웹퍼블리셔&디자인 7개월 과정 수료
 
-# 🔎 Certificate
 # 📮 Contact
 - E-mail : jjangsuyeon0908@gmail.com
 - Blog : https://velog.io/@jjangsuyeon0908/posts
