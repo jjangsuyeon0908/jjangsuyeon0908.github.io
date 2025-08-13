@@ -35,6 +35,42 @@
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=sim01202)](https://solved.ac/sim01202)
 
 # 📌 Projects
+## 🖥️ Portfolio Website
+> Vue.js와 SCSS를 활용한 반응형 개인 포트폴리오 웹사이트
+
+**주요 기능**
+- 원스크롤 풀페이지 네비게이션
+- 프로젝트 필터링 및 검색 기능
+- 반응형 레이아웃과 애니메이션 적용(GSAP)
+
+**기술 스택**
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![SCSS](https://img.shields.io/badge/scss-%23CC6699.svg?style=for-the-badge&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+**링크**
+- [GitHub Repository](https://github.com/username/portfolio)
+- [배포 페이지](https://your-portfolio-link.com)
+
+---
+
+## 🎬 MovieFinder
+> TMDb API를 이용해 영화 검색 및 리뷰 작성이 가능한 웹 앱
+
+**주요 기능**
+- 영화 제목/장르별 검색
+- 리뷰 작성·수정·삭제
+- 실시간 데이터 API 연동 및 로딩 상태 처리
+
+**기술 스택**
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![Node.js](https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+
+**링크**
+- [GitHub Repository](https://github.com/username/moviefinder)
+- [배포 페이지](https://moviefinder-demo.netlify.app)
+
 # 📚 Education and Experience
 ## 건국대학교
 ### 2017 ~ 2022
