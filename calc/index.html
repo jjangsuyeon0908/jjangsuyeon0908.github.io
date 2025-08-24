@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #e3f2fd;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .calculator {
+            background: white;
+            border-radius: 18px;
+            width: 320px;;
+            padding: 28px 16px 22px 16px;
+            display: grid;
+            gap: 20px;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 28px #90caf988;
+        }
+
+        .display {
+            background: #222e3a;
+            color: white;
+            border-radius: 12px;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-end;
+            padding: 10px;
+            letter-spacing: 1px;
+            box-shadow: 0 2px 6px #bbb4;
+            font-family: 'Consolas', monospace;
+        }
+
+        .result {
+            color: white;
+            font-size: 2em;
+            font-weight: 600;
+            line-height: 1;
+            margin-top: auto;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 100%;
+            text-align: right;
+        }
+
+        .process {
+            color: #aaa;
+            font-size: 0.8em;
+            height: 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 100%;
+            margin-bottom: 5px;
+            text-align: right;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 60px);
+            grid-template-rows: repeat(5, 48px);
+            gap : 12px;
+            margin: 0 auto;
+        }
+
+        button {
+            font-size: 1.24em;
+            border: none;
+            background: #e3f2fd;
+            color: #1976d2;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.15s, color 0.14s;
+            font-family: 'Consolas', monospace;
+            font-weight: 600;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .buttons button:hover {
+            background: #bbdefb;
+            color: #0d47a1;
+        }
+
+        .buttons .span-2 {
+            grid-column: span 2;
+        }
+
+        .buttons .equals {
+            background: #1976d2;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <div class="process"></div>
+            <div class="result">0</div>
+        </div>
+        <div class="buttons">
+            <button>C</button>
+            <button>+/-</button>
+            <button>%</button>
+            <button>÷</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>x</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>-</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+            <button class="span-2">0</button>
+            <button>.</button>
+            <button class="equals">=</button>
+        </div>
+    </div>
+
+    <!-- 스크립트 -->
+    <script>
+      (function () {
+        const displayEl = document.querySelector(".result");
+        const processEl = document.querySelector(".process");
+        const btns = document.querySelectorAll(".buttons button");
+
+        let first = null;   // 첫 번째 피연산자
+        let op = null;      // 연산자
+        let overwrite = true;
+
+        function setDisplay(v) {
+          // 숫자인 경우 소숫점 자릿수 제한 (최대 8자리)
+          if (typeof v === 'number') {
+            if (Number.isInteger(v)) {
+              displayEl.textContent = String(v);
+            } else {
+              // 소숫점이 있는 경우 최대 6자리까지 표시
+              displayEl.textContent = parseFloat(v.toFixed(6)).toString();
+            }
+          } else {
+            displayEl.textContent = String(v);
+          }
+        }
+        
+        function setProcess(v) {
+          processEl.textContent = v;
+        }
+        
+        function getText() { return displayEl.textContent; }
+        function getNumber() { return Number(getText()); }
+
+        function clearAll() {
+          first = null;
+          op = null;
+          overwrite = true;
+          setDisplay("0");
+          setProcess("");
+        }
+
+        function appendDigit(d) {
+          if (overwrite) {
+            setDisplay(d);
+            overwrite = false;
+          } else {
+            setDisplay(getText() === "0" ? d : getText() + d);
+          }
+          
+          // 계산 과정 표시 업데이트
+          if (first !== null && op) {
+            const opSymbol = op === "*" ? "×" : op === "/" ? "÷" : op;
+            setProcess(`${first} ${opSymbol} ${getText()}`);
+          }
+        }
+
+        function appendDecimal() {
+          if (overwrite) {
+            setDisplay("0.");
+            overwrite = false;
+            return;
+          }
+          if (!getText().includes(".")) {
+            setDisplay(getText() + ".");
+          }
+        }
+
+        function toggleSign() {
+          if (getText() === "0") return;
+          
+          // 현재 입력 중인 숫자의 부호 변경
+          if (getText().startsWith("-")) setDisplay(getText().slice(1));
+          else setDisplay("-" + getText());
+          
+          // overwrite 모드일 때 first를 현재 표시된 숫자로 업데이트
+          if (first !== null && overwrite) {
+            first = getNumber();
+          }
+          
+          // 계산 과정 표시 업데이트
+          if (first !== null && op) {
+            const opSymbol = op === "*" ? "×" : op === "/" ? "÷" : op;
+            setProcess(`${first} ${opSymbol}`);
+          }
+        }
+
+        function percent() {
+          const cur = getNumber();
+          if (first !== null && op && !overwrite) {
+            const result = first * (cur / 100);
+            setProcess(`${first} × ${cur}% = ${result}`);
+            setDisplay(result);
+          } else {
+            const result = cur / 100;
+            setProcess(`${cur}% = ${result}`);
+            setDisplay(result);
+          }
+        }
+
+        function compute(a, operator, b) {
+          switch (operator) {
+            case "+": return a + b;
+            case "-": return a - b;
+            case "*": return a * b;
+            case "/": return b === 0 ? NaN : a / b;
+            default: return b;
+          }
+        }
+
+        function setOperator(nextOp) {
+          const cur = getNumber();
+          if (op && !overwrite) {
+            const res = compute(first, op, cur);
+            if (isNaN(res)) return setDisplay("Error");
+            setProcess(`${first} ${op} ${cur} = ${res}`);
+            setDisplay(res);
+            first = res;
+          } else {
+            first = cur;
+          }
+          op = nextOp;
+          overwrite = true;
+          
+          // 연산자 표시
+          const opSymbol = nextOp === "*" ? "×" : nextOp === "/" ? "÷" : nextOp;
+          setProcess(`${first} ${opSymbol}`);
+        }
+
+        function equals() {
+          if (!op) return;
+          const cur = getNumber();
+          const res = compute(first, op, cur);
+          if (isNaN(res)) return setDisplay("Error");
+          
+          const opSymbol = op === "*" ? "×" : op === "/" ? "÷" : op;
+          setProcess(`${first} ${opSymbol} ${cur} = ${res}`);
+          setDisplay(res);
+          first = res;
+          op = null;
+          overwrite = true;
+        }
+
+        btns.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const val = btn.textContent.trim();
+            if (/^\d$/.test(val)) return appendDigit(val);
+
+            switch (val) {
+              case "C":   return clearAll();
+              case "+/-": return toggleSign();
+              case "%":   return percent();
+              case "÷":   return setOperator("/");
+              case "x":   return setOperator("*");
+              case "-":   return setOperator("-");
+              case "+":   return setOperator("+");
+              case "=":   return equals();
+              case ".":   return appendDecimal();
+            }
+          });
+        });
+
+        clearAll();
+      })();
+    </script>
+</body>
+</html>
