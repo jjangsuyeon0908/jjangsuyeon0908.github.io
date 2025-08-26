@@ -1,15 +1,21 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=150&section=header%30render&fontColor=e7f216&text=Suyeon's%20Portfolio&animation=twinkling&color=_000000)
-# 🧸 About Me
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FF5733&center=true&vCenter=true&width=500&lines=Web+Publisher+→+Frontend+Developer;Keep+Growing+Keep+Learning" />
 </p>
+
+# 🧸 About Me
 
 ![Portfolio Preview](https://your-image-link.com/portfolio.png)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/.../deploy-status)](https://your-portfolio-link.com)
 
 
 > 👋 안녕하세요!  
-4년 차 웹 퍼블리셔이자 프론트엔드 개발자로 성장 중인 장수연입니다.
+4년 차 웹 퍼블리셔이자 프론트엔드 개발자로 성장 중인 장수연입니다.  
+교육 플랫폼과 다양한 웹 프로젝트에서 반응형 웹, UI/UX 최적화, 접근성(A11y) 개선 경험을 쌓아왔습니다.  
+단순히 화면을 구현하는 것을 넘어, 사용자 경험을 높이고 유지보수가 쉬운 구조적인 코드를 작성하는 것을 중요하게 생각합니다.  
+현재는 퍼블리셔 경험을 기반으로 프론트엔드 영역까지 확장하며 Vue.js와 React를 활용한 프로젝트에 참여하고 있습니다.  
+앞으로도 꾸준히 새로운 기술을 학습하며, 인터랙션 디자인과 성능 최적화에 강점을 가진 개발자로 성
                    
 # 💡 Tech Stack
 - HTML · CSS · JavaScript 퍼블리싱  
