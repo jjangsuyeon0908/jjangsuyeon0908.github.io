@@ -28,11 +28,8 @@
 - GitHub에 사이드 프로젝트와 학습 기록 공유
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jjangsuyeon0908&hide_progress=true&theme=highcontrast)"><br><br>
-  <img src="https://github-readme-stats.vercel.app/api?username=jjangsuyeon0908&show_icons=true&theme=highcontrast">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jjangsuyeon0908&hide_progress=true&theme=highcontrast)">
 </div>
-
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=sim01202)](https://solved.ac/sim01202)
 
 # 📌 Projects
 ## 🖥️ Portfolio Website
