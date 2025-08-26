@@ -1,5 +1,11 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=150&section=header%30render&fontColor=e7f216&text=Suyeon's%20Portfolio&animation=twinkling&color=_000000)
 # 🧸 About Me
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7F316&center=true&vCenter=true&width=500&lines=Web+Publisher+→+Frontend+Developer;Keep+Growing+Keep+Learning" />
+</p>
+![Portfolio Preview](https://your-image-link.com/portfolio.png)
+
+
 > 👋 안녕하세요!  
 4년 차 웹 퍼블리셔이자 프론트엔드 개발자로 성장 중인 장수연입니다.
                    
@@ -26,6 +32,15 @@
 🎯 현재 목표  
 - 퍼블리셔 경험을 살린 프론트엔드 전환  
 - GitHub에 사이드 프로젝트와 학습 기록 공유
+
+- <div align="center">
+  
+![Suyeon's GitHub stats](https://github-readme-stats.vercel.app/api?username=jjangsuyeon0908&show_icons=true&theme=radical)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jjangsuyeon0908&layout=compact&theme=radical)
+
+</div>
+
 
 
 # 📌 Projects
@@ -68,7 +83,12 @@
 
 
 # 📚 Education and Experience
-
+📌 **Education Timeline**
+- 🏢 메가스터디교육㈜ (2022 ~ 현재) — 인하우스 퍼블리셔
+- 🎓 코리아IT아카데미 (2024.09 ~ 2025.03 예정) — 풀스택 과정
+- 🖥️ 브랜뉴디자인아카데미 (2021 ~ 2022) — 웹디자인/퍼블리셔 과정
+- 🏫 건국대학교 (2017 ~ 2022) — 신산업융합학과 졸업
+- 
 <details>
 <summary><b>📌 메가스터디교육㈜ (2022 ~ 현재)</b></summary>
 
@@ -117,6 +137,11 @@
 
 
 # 📮 Contact
+[![Gmail Badge](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jjangsuyeon0908@gmail.com)
+[![Velog Badge](https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@jjangsuyeon0908/posts)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jjangsuyeon0908)
+
+
 - E-mail : jjangsuyeon0908@gmail.com
 - Blog : https://velog.io/@jjangsuyeon0908/posts
 - GitHub : https://github.com/jjangsuyeon0908/jjangsuyeon0908.github.io
