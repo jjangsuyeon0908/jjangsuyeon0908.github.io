@@ -122,5 +122,5 @@
 # 📮 Contact
 - E-mail : jjangsuyeon0908@gmail.com
 - Blog : https://velog.io/@jjangsuyeon0908/posts
-- GitHub : https://github.com/jjangsuyeon0908/jjangsuyeon0908
+- GitHub : https://github.com/jjangsuyeon0908/jjangsuyeon0908.github.io
 ![footer](https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=_000000)
