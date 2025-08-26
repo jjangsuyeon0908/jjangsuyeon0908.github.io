@@ -1,9 +1,11 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=150&section=header%30render&fontColor=e7f216&text=Suyeon's%20Portfolio&animation=twinkling&color=_000000)
 # 🧸 About Me
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7F316&center=true&vCenter=true&width=500&lines=Web+Publisher+→+Frontend+Developer;Keep+Growing+Keep+Learning" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=FF5733&center=true&vCenter=true&width=500&lines=Web+Publisher+→+Frontend+Developer;Keep+Growing+Keep+Learning" />
 </p>
+
 ![Portfolio Preview](https://your-image-link.com/portfolio.png)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/.../deploy-status)](https://your-portfolio-link.com)
 
 
 > 👋 안녕하세요!  
