@@ -137,12 +137,7 @@
 
 
 # 📮 Contact
-[![Gmail Badge](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jjangsuyeon0908@gmail.com)
-[![Velog Badge](https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@jjangsuyeon0908/posts)
-[![GitHub Badge](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jjangsuyeon0908)
-
-
-- E-mail : jjangsuyeon0908@gmail.com
-- Blog : https://velog.io/@jjangsuyeon0908/posts
-- GitHub : https://github.com/jjangsuyeon0908/jjangsuyeon0908.github.io
+- [![Gmail Badge](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jjangsuyeon0908@gmail.com) : jjangsuyeon0908@gmail.com
+- [![Velog Badge](https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@jjangsuyeon0908/posts) : https://velog.io/@jjangsuyeon0908/posts
+- [![GitHub Badge](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jjangsuyeon0908) : https://github.com/jjangsuyeon0908/jjangsuyeon0908.github.io
 ![footer](https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=_000000)
