@@ -27,9 +27,6 @@
 - 퍼블리셔 경험을 살린 프론트엔드 전환  
 - GitHub에 사이드 프로젝트와 학습 기록 공유
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jjangsuyeon0908&hide_progress=true&theme=highcontrast)">
-</div>
 
 # 📌 Projects
 ## 🖥️ Portfolio Website
