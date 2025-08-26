@@ -83,14 +83,8 @@
 
 
 # 📚 Education and Experience
-📌 **Education Timeline**
-- 🏢 메가스터디교육㈜ (2022 ~ 현재) — 인하우스 퍼블리셔
-- 🎓 코리아IT아카데미 (2024.09 ~ 2025.03 예정) — 풀스택 과정
-- 🖥️ 브랜뉴디자인아카데미 (2021 ~ 2022) — 웹디자인/퍼블리셔 과정
-- 🏫 건국대학교 (2017 ~ 2022) — 신산업융합학과 졸업
-- 
 <details>
-<summary><b>📌 메가스터디교육㈜ (2022 ~ 현재)</b></summary>
+<summary><b>🏢 메가스터디교육㈜ (2022 ~ 현재) — 인하우스 퍼블리셔</b></summary>
 
 - 인하우스 웹 퍼블리셔로 근무  
 - 학원/교육 관련 마이크로사이트 및 캠페인 페이지 퍼블리싱  
@@ -100,7 +94,7 @@
 </details>
 
 <details>
-<summary><b>📌 코리아IT아카데미 (자바스크립트 기반 풀스택 과정) (2024.09 ~ 2025.03 예정)</b></summary>
+<summary><b>🎓 코리아IT아카데미 (2024.09 ~ 2025.03 예정) — 풀스택 과정</b></summary>
 
 - **프론트엔드 과정**  
   • HTML/CSS 기초 및 심화  
@@ -116,7 +110,7 @@
 </details>
 
 <details>
-<summary><b>📌 브랜뉴디자인아카데미 (UXUI 웹 디자인&웹 퍼블리셔 과정) (2021 ~ 2022)</b></summary>
+<summary><b>🖥️ 브랜뉴디자인아카데미 (2021 ~ 2022) — 웹디자인/퍼블리셔 과정</b></summary>
 
 - 웹퍼블리셔 & 웹디자인 7개월 과정 수료  
 - HTML, CSS, JavaScript 기초부터 반응형 퍼블리싱, 시맨틱 마크업, 웹표준·접근성 중심 학습  
@@ -125,7 +119,7 @@
 </details>
 
 <details>
-<summary><b>📌 건국대학교 신산업융합학과 졸업 (2017 ~ 2022)</b></summary>
+<summary><b>🏫 건국대학교 (2017 ~ 2022) — 신산업융합학과 졸업</b></summary>
 
 - 컴퓨터공학 기초 이론 학습  
   • 파이썬 기반 알고리즘, OOP(객체지향 프로그래밍), 데이터베이스 등  
@@ -137,7 +131,7 @@
 
 
 # 📮 Contact
-- [![Gmail Badge](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jjangsuyeon0908@gmail.com) : jjangsuyeon0908@gmail.com
-- [![Velog Badge](https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@jjangsuyeon0908/posts) : https://velog.io/@jjangsuyeon0908/posts
-- [![GitHub Badge](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jjangsuyeon0908) : https://github.com/jjangsuyeon0908/jjangsuyeon0908.github.io
+[![Gmail Badge](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jjangsuyeon0908@gmail.com) : jjangsuyeon0908@gmail.com
+[![Velog Badge](https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@jjangsuyeon0908/posts) : https://velog.io/@jjangsuyeon0908/posts
+[![GitHub Badge](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jjangsuyeon0908) : https://github.com/jjangsuyeon0908/jjangsuyeon0908.github.io
 ![footer](https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=_000000)
