@@ -22,78 +22,6 @@
     <link rel="stylesheet" href="./css/jquery-ui-1.9.2.custom.min.css">
     <link rel="stylesheet" href="./css/swiper.min.css" />
     <link rel="stylesheet" href="./css/aos.css" />
-
-
-    <style>
-    .hero {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: #fafafa; /* 라이트 톤 배경 */
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-
-    #particles-js {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    }
-
-    .hero-content {
-    position: relative;
-    z-index: 2; /* 파티클 위에 올라오도록 */
-    text-align: center;
-    color: #333;
-    }
-
-
-    #sec-6 {
-    position: relative;
-    width: 100%;
-    min-height: 60vh;
-    background: #fefefe;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 80px 20px;
-    }
-
-
-    .cta-content {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    color: #333;
-    }
-
-    #particles-cta, 
-    #particles-about,
-    #particles-skills,
-    #particles-projects,
-    #particles-contact {
-        position: absolute;
-        top: 0; left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        pointer-events: none;
-    }
-    .sec2, .sec3, .sec4, .sec5 {
-    position: relative;
-    overflow: hidden;
-    }
-    .about-content, .skills-content, .projects-content, .contact-content {
-    position: relative;
-    z-index: 2;
-    }
-
-    </style>
 </head>
 <body>
     <!-- 상단 진행바 -->
@@ -107,9 +35,9 @@
 
     <section class="sec01" id="sec-1" data-title="Hero / Intro">
         <div id="particles-js"></div>
-        <!-- <div class="inner"> -->
-            <div class="hero-content">
-                <h1>SUYEON'S PORTFOLIO</h1>
+        <div class="inner">
+            <h1>SUYEON'S <span>PORTFOLIO</span></h1>
+            <div class="info-wrap">
                 <h2 aria-live="polite" aria-atomic="true">
                     <span class="typewrap">
                         <span id="type-line1" class="type-line"></span><br>
@@ -117,7 +45,8 @@
                         <span class="caret" aria-hidden="true"></span>
                     </span>
                 </h2>
-                <div style="margin:20px 0;">
+
+                <div class="profile">
                     <img src="./img/suyeon.jpg" alt="장수연 프로필 사진" style="width:200px;height:200px;border-radius:50%;object-fit:cover;">
                 </div>
     
@@ -136,20 +65,19 @@
                     <a href="mailto:youremail@example.com" class="btn">이메일 보내기</a>
                 </div>
             </div>
-            <div class="mouse-wheel">🖱️</div>
-        <!-- </div> -->
-    </section>
 
+            <div class="mouse-wheel">🖱️</div>
+        </div>
+    </section>
 
     <section class="sec02" id="sec-2" data-title="About Me">
         <div id="particles-about"></div>
-        <!-- <div class="inner"> -->
+        <!--<div class="inner">-->
             <div class="title-wrap">
                 <h2 class="section-title">About Me</h2>
             </div>
             <div class="about-intro fade-item">
                 <div>
-                    <!-- 강점 -->
                     <h3 class="fade-item">퍼블리셔로서의 강점</h3>
                     <p class="fade-item">퍼블리싱 표준 준수와 디자인 재현율 <strong class="counter" data-count="99">0</strong>%</p>
     
@@ -160,7 +88,6 @@
                         현재는 퍼블리싱을 넘어 프론트엔드 영역까지 확장해 나가고 있습니다.
                     </p>
         
-                    <!-- 경력 타임라인 -->
                     <h3 class="fade-item">경력 타임라인</h3>
                     <ul class="timeline fade-item">
                         <li><span>2022 - 현재</span> 인하우스 웹 퍼블리셔, 자사 웹사이트 구축 및 운영</li>
@@ -169,7 +96,7 @@
                     </ul>
                 </div>
             </div>
-        <!-- </div> -->
+        <!--</div>-->
     </section>
 
     <section class="sec03" id="sec-3" data-title="Skills">

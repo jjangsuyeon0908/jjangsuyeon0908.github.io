@@ -2,7 +2,7 @@
 @font-face {
 	font-family: 'Pretendard';
 	src: url('../font/PretendardVariable.woff2') format('woff2-variations');
-	font-weight: 100 900; /* Variable font´Â ¹üÀ§¸¦ ÁöÁ¤ */
+	font-weight: 100 900; /* Variable fontï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 	font-style: normal;
 	font-display: swap;
 }
@@ -45,7 +45,7 @@
 }
 
 
-/* Regular (±âº» 400) */
+/* Regular (ï¿½âº» 400) */
 @font-face {
 	font-family: 'Cormorant Garamond';
 	src: url('../font/CormorantGaramond-Regular.woff2') format('woff2');
@@ -143,7 +143,7 @@
 /* DEFAULT */
 html{
 	width:100%;
-	font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;
+	font-size:62.5%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;
 }
 
 input, img, a, div, span, ul, li,body, h1, h2, h3, select{margin:0;padding:0;}
@@ -155,7 +155,7 @@ body{
 	padding:0;
 	font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
 	font-weight:400;
-	font-size:16px;
+	font-size:1.6rem;
 	letter-spacing:0;
 	-webkit-overflow-scrolling: touch;
 	line-height:1.5;
@@ -527,7 +527,7 @@ span.cb{clear:both; _display:block;_height:1px; _border-bottom:1px solid #ccc; }
 .pr40	{padding-right:40px !important}
 
 
-/* ÆùÆ® »çÀÌÁî */
+/* ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 .fz10	{font-size:10px !important}
 .fz11	{font-size:11px !important}
 .fz12	{font-size:12px !important}
@@ -630,21 +630,21 @@ span.cb{clear:both; _display:block;_height:1px; _border-bottom:1px solid #ccc; }
 
 
 /* =================================================
-    ¸®½ºÆ® Å¸ÀÔ
+    ï¿½ï¿½ï¿½ï¿½Æ® Å¸ï¿½ï¿½
 ==================================================== */
 .list-01,.list-02,.list-03,.list-04,.list-05,.list-bar, .list-base {margin-top:10px;text-align: left;}
 
 .list-01 li {position:relative;padding-left:18px;font-size:15px;line-height: 1.6;}
-.list-01 li::before {content:'¡Ú';position:absolute;left:0;top:0;}
+.list-01 li::before {content:'ï¿½ï¿½';position:absolute;left:0;top:0;}
 .list-01 li.bar {padding-left:8px;}
 .list-01 li.bar:before {content:'-';position:absolute;left:0;top:0;}
 .list-01 li.txt-red {color:#d05050;}
 
 .list-02 li {position:relative;padding-left:18px;font-size:15px;line-height: 1.6;}
-.list-02 li::before {content:'¡Ø';position:absolute;left:0;top:0;}
+.list-02 li::before {content:'ï¿½ï¿½';position:absolute;left:0;top:0;}
 
 .list-03 li {position:relative;padding-left:5px;font-size:15px;}
-.list-03 li::before {content:'¡¤';position:absolute;left:0;top:0;}
+.list-03 li::before {content:'ï¿½ï¿½';position:absolute;left:0;top:0;}
 
 .list-04 li {position:relative;padding-left:10px!important;font-size:15px;line-height: 1.6;}
 .list-04 li::before {content:'-';position:absolute;left:0;top:0;}
@@ -660,7 +660,7 @@ span.cb{clear:both; _display:block;_height:1px; _border-bottom:1px solid #ccc; }
 .list-base li:before {content:'';position:absolute;left:0;top:0;}
 
 .notice-txt {padding-left: 18px; font-size: 16px;color: #333;text-align: left;font-weight: bold;margin: 10px 0 0;position: relative;}
-.notice-txt::before {content: '¡Ø';display: block;position: absolute;top: 0;left: 0;}
+.notice-txt::before {content: 'ï¿½ï¿½';display: block;position: absolute;top: 0;left: 0;}
 .notice-tit {font-size: 16px;color: #333;text-align: left;font-weight: bold;margin: 25px 0 0;position: relative;}
 
 .notice-txt.gray {font-size: 15px;color: #0000007e !important;font-weight: 500;margin: 30px 0 0;}
